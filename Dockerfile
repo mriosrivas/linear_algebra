@@ -44,7 +44,8 @@ RUN pip install vtk && \
     pip install nibabel && \
     pip install https://github.com/nipy/PySurfer/archive/master.zip && \
     pip install mne &&\
-    pip install numpy-stl
+    pip install numpy-stl &&\
+    pip install seaborn
 
 # Install Jupyter notebook extensions
 RUN pip install RISE && \
